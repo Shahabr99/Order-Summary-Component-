@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10 * 16 = 0.625 * 100 */
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 98%);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0% -50%;
+}
+
+.card {
+  background-color: #fff;
+  width: 42rem;
+  margin: 5rem auto;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  box-shadow: 5px 5px 45px rgba(0, 0, 0, 0.114);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.information {
+  padding: 3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+
+p {
+  font-size: 1.6rem;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+
+.subscription {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+a {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.order {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+
+.payment {
+  background-color: hsl(245, 75%, 52%);
+  padding: 1rem 2rem;
+  color: hsl(225, 100%, 94%);
+  font-weight: 900;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.cancel {
+  border: none;
+  background: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
